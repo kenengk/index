@@ -21,3 +21,13 @@
                                  }
                             }
                     }
+function aks(){
+  if(djj.value == "显示"){
+     djj.value = "隐藏";
+     pwd1.type = "password"
+  } else{
+     djj.value = "显示"
+     pwd1.type = "text"
+  }
+  }
+
